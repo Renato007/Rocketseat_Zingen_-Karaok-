@@ -11,7 +11,7 @@
 }
 
 .px-lg{
-    padding-block: var(--px-lg);
+    padding-inline: var(--px-lg);
 }
 
 .container {
@@ -21,11 +21,27 @@
  margin-inline: auto;
 }
 
+.desktop-only{
+    display: none;
+}
 
+.even-coluns{
+    display: grid;
+    gap: 1rem;
+}
 
 
 @media(width >= 80em){
     .container{
         --max-width: 80rem;
     }
+
+    .desktop-only{
+    display: initial;
+
+    .even-columns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
 }
