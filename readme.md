@@ -8,9 +8,10 @@ Este projeto de Landing Page de aplicativo, é um projeto acadêmico, desafio da
 * CSS - unidade relativa(rem/em)/layout flexivel | CSS-nesting |
 
 ## O que eu aprendir com esse projeto
-* HTML
-* CSS 
+* HTML - acessibilidade (role|label|aria-label )
+* CSS -  pseudo-elemento (::before|::after)
 
 ## Questões apresentadas no projeto
-* 
+* Estilização de botões apenas o conteúdo e texto degrader
+* Estilização de texto ou links em degrader
 
