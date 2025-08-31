@@ -96,6 +96,11 @@ ul[role="list"] {
   list-style: none;
 }
 
+    img{
+        max-width: 100%;
+        display: inline-block;
+    }
+
 @media (width >= 80em) {
   /*está verificando a largura 1080px - tela dekstop*/
   :root {
