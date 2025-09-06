@@ -27,7 +27,7 @@
   --ff-sans: "Inter", system-ui, sans-serif; /*font-family*/
   --fw-base: 400; /*font-weight*/
   --fw-md: 500;
-  --fw-bolder: 800;
+  --fw-bold: 800;
 
   --fs-sm: 0.875rem; /*font-size*/
   --fs-base: 1rem;
