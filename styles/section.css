@@ -16,13 +16,22 @@ section {
       margin-top: 0.5rem;
     }
   }
-  & p {
+  /* & p {
     margin-top: .5rem;
     color: var(--text-color-secondary);
     text-align: justify;
 
-  }
+  } */
+  
 }
+
+section:not(#hero) {
+    & p {
+      margin-top: 0.5rem;
+      color: var(--text-color-secondary);
+      text-align: justify;
+    }
+  }
 
 @media (width >= 80em) {
   #smartphones-img {
